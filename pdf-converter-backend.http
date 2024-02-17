@@ -1,0 +1,6 @@
+@pdf_converter_backend_HostAddress = http://localhost:5072
+
+GET {{pdf_converter_backend_HostAddress}}/DocumentController/
+Accept: application/json
+
+###
